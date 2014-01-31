@@ -15,7 +15,7 @@ name: Net-SeedServe
 provides:
   Net::SeedServe:
     file: lib/Net/SeedServe.pm
-    version: v0.2.2
+    version: v0.2.3
   Net::SeedServe::Server:
     file: lib/Net/SeedServe/Server.pm
 requires:
@@ -25,4 +25,5 @@ requires:
   perl: 5.008
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: v0.2.2
+  repository: https://bitbucket.org/shlomif/gimp-test-suite
+version: v0.2.3
