@@ -1,0 +1,47 @@
+{
+   "abstract" : "Perl module for implementing a seed server (should not",
+   "author" : [
+      "Shlomi Fish, E<lt>shlomif@iglu.org.ilE<gt>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Net-SeedServe",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "IO::All" : "0.33",
+            "Test::More" : "0",
+            "Time::HiRes" : "1.59",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "provides" : {
+      "Net::SeedServe" : {
+         "file" : "lib/Net/SeedServe.pm",
+         "version" : "v0.2.2"
+      },
+      "Net::SeedServe::Server" : {
+         "file" : "lib/Net/SeedServe/Server.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/mit-license.php"
+      ]
+   },
+   "version" : "v0.2.2"
+}

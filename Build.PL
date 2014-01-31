@@ -1,18 +1,23 @@
 use strict;
 use warnings;
 
-use Module::Build;
+use File::Spec;
+use lib File::Spec->catdir(File::Spec->curdir(), "inc");
 
-my $build = Module::Build->new(
+use Test::Run::Builder;
+
+my $builder = Test::Run::Builder->new(
     'module_name' => "Net::SeedServe",
-    'requires' => 
+    configure_requires => { 'Module::Build' => '0.39', },
+    'requires' =>
     {
+        'perl' => '5.008',
         'IO::All' => 0.33,
         'Test::More' => 0,
         'Time::HiRes' => 1.59,
     },
-    'license' => "bsd",
+    'license' => 'mit',
     create_makefile_pl => 'traditional',
 );
-$build->create_build_script;
+$builder->create_build_script;
 
