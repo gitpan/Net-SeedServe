@@ -1,7 +1,7 @@
 ---
-abstract: 'Perl module for implementing a seed server (should not'
+abstract: 'Perl module for implementing a seed server.'
 author:
-  - 'Shlomi Fish, E<lt>shlomif@iglu.org.ilE<gt>'
+  - unknown
 build_requires: {}
 configure_requires:
   Module::Build: 0.39
@@ -15,7 +15,7 @@ name: Net-SeedServe
 provides:
   Net::SeedServe:
     file: lib/Net/SeedServe.pm
-    version: v0.2.3
+    version: v0.2.4
   Net::SeedServe::Server:
     file: lib/Net/SeedServe/Server.pm
 requires:
@@ -26,4 +26,4 @@ requires:
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
   repository: https://bitbucket.org/shlomif/gimp-test-suite
-version: v0.2.3
+version: v0.2.4

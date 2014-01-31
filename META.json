@@ -1,7 +1,7 @@
 {
-   "abstract" : "Perl module for implementing a seed server (should not",
+   "abstract" : "Perl module for implementing a seed server.",
    "author" : [
-      "Shlomi Fish, E<lt>shlomif@iglu.org.ilE<gt>"
+      "unknown"
    ],
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
@@ -31,7 +31,7 @@
    "provides" : {
       "Net::SeedServe" : {
          "file" : "lib/Net/SeedServe.pm",
-         "version" : "v0.2.3"
+         "version" : "v0.2.4"
       },
       "Net::SeedServe::Server" : {
          "file" : "lib/Net/SeedServe/Server.pm"
@@ -46,5 +46,5 @@
          "url" : "https://bitbucket.org/shlomif/gimp-test-suite"
       }
    },
-   "version" : "v0.2.3"
+   "version" : "v0.2.4"
 }
